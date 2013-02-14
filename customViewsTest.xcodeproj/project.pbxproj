@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBCFBD7F16CC61CC00CAB83C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBCFBD7E16CC61CC00CAB83C /* UIKit.framework */; };
+		BBCFBD8116CC61CC00CAB83C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBCFBD8016CC61CC00CAB83C /* Foundation.framework */; };
+		BBCFBD8316CC61CC00CAB83C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBCFBD8216CC61CC00CAB83C /* CoreGraphics.framework */; };
+		BBCFBD8916CC61CC00CAB83C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BBCFBD8716CC61CC00CAB83C /* InfoPlist.strings */; };
+		BBCFBD8B16CC61CC00CAB83C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCFBD8A16CC61CC00CAB83C /* main.m */; };
+		BBCFBD8F16CC61CC00CAB83C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCFBD8E16CC61CC00CAB83C /* AppDelegate.m */; };
+		BBCFBD9116CC61CC00CAB83C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BBCFBD9016CC61CC00CAB83C /* Default.png */; };
+		BBCFBD9316CC61CC00CAB83C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBCFBD9216CC61CC00CAB83C /* Default@2x.png */; };
+		BBCFBD9516CC61CC00CAB83C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBCFBD9416CC61CC00CAB83C /* Default-568h@2x.png */; };
+		BBCFBD9816CC61CC00CAB83C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCFBD9716CC61CC00CAB83C /* ViewController.m */; };
+		BBCFBD9B16CC61CC00CAB83C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBCFBD9916CC61CC00CAB83C /* ViewController.xib */; };
+		BBCFBDA216CC64AD00CAB83C /* SliderMin.png in Resources */ = {isa = PBXBuildFile; fileRef = BBCFBDA116CC64AD00CAB83C /* SliderMin.png */; };
+		BBCFBDA516CC65E300CAB83C /* CustomImageUISlider.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCFBDA416CC65E300CAB83C /* CustomImageUISlider.m */; };
+		BBCFBDA716CC66C300CAB83C /* SliderKnob.png in Resources */ = {isa = PBXBuildFile; fileRef = BBCFBDA616CC66C300CAB83C /* SliderKnob.png */; };
+		BBCFBDAA16CC6C6200CAB83C /* CustomImageUISegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCFBDA916CC6C6200CAB83C /* CustomImageUISegmentedControl.m */; };
+		BBCFBDAD16CC6F4600CAB83C /* SegmentedControlSelectedBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = BBCFBDAB16CC6F4600CAB83C /* SegmentedControlSelectedBackground.png */; };
+		BBCFBDAE16CC6F4600CAB83C /* SegmentedControlNormalBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = BBCFBDAC16CC6F4600CAB83C /* SegmentedControlNormalBackground.png */; };
+		BBCFBDB016CC6FC100CAB83C /* SegmentedControlNormalDivider.png in Resources */ = {isa = PBXBuildFile; fileRef = BBCFBDAF16CC6FC100CAB83C /* SegmentedControlNormalDivider.png */; };
+		BBCFBDB216CC713700CAB83C /* mushroom.png in Resources */ = {isa = PBXBuildFile; fileRef = BBCFBDB116CC713700CAB83C /* mushroom.png */; };
+		BBCFBDB516CC723D00CAB83C /* CustomImageUISwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCFBDB416CC723D00CAB83C /* CustomImageUISwitch.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BBCFBD7B16CC61CC00CAB83C /* customViewsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = customViewsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBCFBD7E16CC61CC00CAB83C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BBCFBD8016CC61CC00CAB83C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BBCFBD8216CC61CC00CAB83C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BBCFBD8616CC61CC00CAB83C /* customViewsTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "customViewsTest-Info.plist"; sourceTree = "<group>"; };
+		BBCFBD8816CC61CC00CAB83C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BBCFBD8A16CC61CC00CAB83C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BBCFBD8C16CC61CC00CAB83C /* customViewsTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "customViewsTest-Prefix.pch"; sourceTree = "<group>"; };
+		BBCFBD8D16CC61CC00CAB83C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BBCFBD8E16CC61CC00CAB83C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BBCFBD9016CC61CC00CAB83C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BBCFBD9216CC61CC00CAB83C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BBCFBD9416CC61CC00CAB83C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BBCFBD9616CC61CC00CAB83C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BBCFBD9716CC61CC00CAB83C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BBCFBD9A16CC61CC00CAB83C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		BBCFBDA116CC64AD00CAB83C /* SliderMin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SliderMin.png; sourceTree = "<group>"; };
+		BBCFBDA316CC65E300CAB83C /* CustomImageUISlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomImageUISlider.h; sourceTree = "<group>"; };
+		BBCFBDA416CC65E300CAB83C /* CustomImageUISlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomImageUISlider.m; sourceTree = "<group>"; };
+		BBCFBDA616CC66C300CAB83C /* SliderKnob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SliderKnob.png; sourceTree = "<group>"; };
+		BBCFBDA816CC6C6200CAB83C /* CustomImageUISegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomImageUISegmentedControl.h; sourceTree = "<group>"; };
+		BBCFBDA916CC6C6200CAB83C /* CustomImageUISegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomImageUISegmentedControl.m; sourceTree = "<group>"; };
+		BBCFBDAB16CC6F4600CAB83C /* SegmentedControlSelectedBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SegmentedControlSelectedBackground.png; sourceTree = "<group>"; };
+		BBCFBDAC16CC6F4600CAB83C /* SegmentedControlNormalBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SegmentedControlNormalBackground.png; sourceTree = "<group>"; };
+		BBCFBDAF16CC6FC100CAB83C /* SegmentedControlNormalDivider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SegmentedControlNormalDivider.png; sourceTree = "<group>"; };
+		BBCFBDB116CC713700CAB83C /* mushroom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mushroom.png; sourceTree = "<group>"; };
+		BBCFBDB316CC723D00CAB83C /* CustomImageUISwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomImageUISwitch.h; sourceTree = "<group>"; };
+		BBCFBDB416CC723D00CAB83C /* CustomImageUISwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomImageUISwitch.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBCFBD7816CC61CC00CAB83C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBCFBD7F16CC61CC00CAB83C /* UIKit.framework in Frameworks */,
+				BBCFBD8116CC61CC00CAB83C /* Foundation.framework in Frameworks */,
+				BBCFBD8316CC61CC00CAB83C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBCFBD7216CC61CC00CAB83C = {
+			isa = PBXGroup;
+			children = (
+				BBCFBD8416CC61CC00CAB83C /* customViewsTest */,
+				BBCFBD7D16CC61CC00CAB83C /* Frameworks */,
+				BBCFBD7C16CC61CC00CAB83C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBCFBD7C16CC61CC00CAB83C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBCFBD7B16CC61CC00CAB83C /* customViewsTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBCFBD7D16CC61CC00CAB83C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBCFBD7E16CC61CC00CAB83C /* UIKit.framework */,
+				BBCFBD8016CC61CC00CAB83C /* Foundation.framework */,
+				BBCFBD8216CC61CC00CAB83C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBCFBD8416CC61CC00CAB83C /* customViewsTest */ = {
+			isa = PBXGroup;
+			children = (
+				BBCFBDA616CC66C300CAB83C /* SliderKnob.png */,
+				BBCFBDA116CC64AD00CAB83C /* SliderMin.png */,
+				BBCFBD8D16CC61CC00CAB83C /* AppDelegate.h */,
+				BBCFBD8E16CC61CC00CAB83C /* AppDelegate.m */,
+				BBCFBD9616CC61CC00CAB83C /* ViewController.h */,
+				BBCFBD9716CC61CC00CAB83C /* ViewController.m */,
+				BBCFBD9916CC61CC00CAB83C /* ViewController.xib */,
+				BBCFBD8516CC61CC00CAB83C /* Supporting Files */,
+				BBCFBDA316CC65E300CAB83C /* CustomImageUISlider.h */,
+				BBCFBDA416CC65E300CAB83C /* CustomImageUISlider.m */,
+				BBCFBDA816CC6C6200CAB83C /* CustomImageUISegmentedControl.h */,
+				BBCFBDA916CC6C6200CAB83C /* CustomImageUISegmentedControl.m */,
+				BBCFBDAB16CC6F4600CAB83C /* SegmentedControlSelectedBackground.png */,
+				BBCFBDAC16CC6F4600CAB83C /* SegmentedControlNormalBackground.png */,
+				BBCFBDAF16CC6FC100CAB83C /* SegmentedControlNormalDivider.png */,
+				BBCFBDB116CC713700CAB83C /* mushroom.png */,
+				BBCFBDB316CC723D00CAB83C /* CustomImageUISwitch.h */,
+				BBCFBDB416CC723D00CAB83C /* CustomImageUISwitch.m */,
+			);
+			path = customViewsTest;
+			sourceTree = "<group>";
+		};
+		BBCFBD8516CC61CC00CAB83C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBCFBD8616CC61CC00CAB83C /* customViewsTest-Info.plist */,
+				BBCFBD8716CC61CC00CAB83C /* InfoPlist.strings */,
+				BBCFBD8A16CC61CC00CAB83C /* main.m */,
+				BBCFBD8C16CC61CC00CAB83C /* customViewsTest-Prefix.pch */,
+				BBCFBD9016CC61CC00CAB83C /* Default.png */,
+				BBCFBD9216CC61CC00CAB83C /* Default@2x.png */,
+				BBCFBD9416CC61CC00CAB83C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBCFBD7A16CC61CC00CAB83C /* customViewsTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBCFBD9E16CC61CC00CAB83C /* Build configuration list for PBXNativeTarget "customViewsTest" */;
+			buildPhases = (
+				BBCFBD7716CC61CC00CAB83C /* Sources */,
+				BBCFBD7816CC61CC00CAB83C /* Frameworks */,
+				BBCFBD7916CC61CC00CAB83C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = customViewsTest;
+			productName = customViewsTest;
+			productReference = BBCFBD7B16CC61CC00CAB83C /* customViewsTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBCFBD7316CC61CC00CAB83C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Oriol Ferrer Mesià";
+			};
+			buildConfigurationList = BBCFBD7616CC61CC00CAB83C /* Build configuration list for PBXProject "customViewsTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BBCFBD7216CC61CC00CAB83C;
+			productRefGroup = BBCFBD7C16CC61CC00CAB83C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBCFBD7A16CC61CC00CAB83C /* customViewsTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBCFBD7916CC61CC00CAB83C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBCFBD8916CC61CC00CAB83C /* InfoPlist.strings in Resources */,
+				BBCFBD9116CC61CC00CAB83C /* Default.png in Resources */,
+				BBCFBD9316CC61CC00CAB83C /* Default@2x.png in Resources */,
+				BBCFBD9516CC61CC00CAB83C /* Default-568h@2x.png in Resources */,
+				BBCFBD9B16CC61CC00CAB83C /* ViewController.xib in Resources */,
+				BBCFBDA216CC64AD00CAB83C /* SliderMin.png in Resources */,
+				BBCFBDA716CC66C300CAB83C /* SliderKnob.png in Resources */,
+				BBCFBDAD16CC6F4600CAB83C /* SegmentedControlSelectedBackground.png in Resources */,
+				BBCFBDAE16CC6F4600CAB83C /* SegmentedControlNormalBackground.png in Resources */,
+				BBCFBDB016CC6FC100CAB83C /* SegmentedControlNormalDivider.png in Resources */,
+				BBCFBDB216CC713700CAB83C /* mushroom.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBCFBD7716CC61CC00CAB83C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBCFBD8B16CC61CC00CAB83C /* main.m in Sources */,
+				BBCFBD8F16CC61CC00CAB83C /* AppDelegate.m in Sources */,
+				BBCFBD9816CC61CC00CAB83C /* ViewController.m in Sources */,
+				BBCFBDA516CC65E300CAB83C /* CustomImageUISlider.m in Sources */,
+				BBCFBDAA16CC6C6200CAB83C /* CustomImageUISegmentedControl.m in Sources */,
+				BBCFBDB516CC723D00CAB83C /* CustomImageUISwitch.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BBCFBD8716CC61CC00CAB83C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBCFBD8816CC61CC00CAB83C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BBCFBD9916CC61CC00CAB83C /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBCFBD9A16CC61CC00CAB83C /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BBCFBD9C16CC61CC00CAB83C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		BBCFBD9D16CC61CC00CAB83C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBCFBD9F16CC61CC00CAB83C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "customViewsTest/customViewsTest-Prefix.pch";
+				INFOPLIST_FILE = "customViewsTest/customViewsTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BBCFBDA016CC61CC00CAB83C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "customViewsTest/customViewsTest-Prefix.pch";
+				INFOPLIST_FILE = "customViewsTest/customViewsTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBCFBD7616CC61CC00CAB83C /* Build configuration list for PBXProject "customViewsTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBCFBD9C16CC61CC00CAB83C /* Debug */,
+				BBCFBD9D16CC61CC00CAB83C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBCFBD9E16CC61CC00CAB83C /* Build configuration list for PBXNativeTarget "customViewsTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBCFBD9F16CC61CC00CAB83C /* Debug */,
+				BBCFBDA016CC61CC00CAB83C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBCFBD7316CC61CC00CAB83C /* Project object */;
+}
