@@ -1,13 +1,16 @@
 //
-//  CustomImageUISwitch.h
+//  CustomImageCheckbox.h
 //  customViewsTest
 //
-//  Created by Oriol Ferrer Mesià on 14/02/13.
+//  Created by Oriol Ferrer Mesià on 15/02/13.
 //  Copyright (c) 2013 Oriol Ferrer Mesià. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface CustomImageUISwitch : UISwitch
+@interface CustomImageCheckbox : UIButton{
+
+}
+
 
 @end

@@ -12,6 +12,8 @@
 
 - (void)awakeFromNib {
 
+	 [super awakeFromNib];
+	
 	//[segmentedCtrl setTintColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"duck.png"]]];
     [self setBackgroundImage:[UIImage imageNamed:@"SegmentedControlNormalBackground"] forState:UIControlStateNormal barMetrics:UIBarMetricsDefault];
     [self setBackgroundImage:[UIImage imageNamed:@"SegmentedControlSelectedBackground"] forState:UIControlStateSelected barMetrics:UIBarMetricsDefault];
@@ -32,23 +34,32 @@
 		rightSegmentState:UIControlStateSelected
 			   barMetrics:UIBarMetricsDefault];
 
+	self.apportionsSegmentWidthsByContent = NO; //uneven segments!
+	
 	//normal segment
+	float fontSize = 14;
+	float loss = 0.7;
 	NSDictionary *normalAttributes = [NSDictionary dictionaryWithObjectsAndKeys:
-									  //[UIFont fontWithName:@"Rok" size:20.0],UITextAttributeFont,
-									  //[UIColor colorWithRed:75.0/255.0 green:75.0/255.0 blue:75.0/255.0 alpha:1.0], UITextAttributeTextColor,
-									  [UIColor clearColor], UITextAttributeTextShadowColor,
-									  [NSValue valueWithUIOffset:UIOffsetMake(0, 1)], UITextAttributeTextShadowOffset,
-									  nil];//[NSDictionary dictionaryWithObject:  [UIColor redColor]forKey:UITextAttributeTextColor];
+									  [UIFont fontWithName:@"0Arame-Mono-Bold" size:fontSize],								UITextAttributeFont,
+									  [UIColor colorWithRed:loss*0/255.0 green:loss*76/255.0 blue:loss*81/255.0 alpha:1],	UITextAttributeTextColor,
+									  [UIColor clearColor],																	UITextAttributeTextShadowColor,
+									  [NSValue valueWithUIOffset:UIOffsetMake(0, 0)],										UITextAttributeTextShadowOffset,
+									  nil];
 	[self setTitleTextAttributes:normalAttributes forState:UIControlStateNormal];
 
+	loss = 1;
 	NSDictionary *selectedAttributes = [NSDictionary dictionaryWithObjectsAndKeys:
-										//[UIFont fontWithName:@"Rok" size:20.0],UITextAttributeFont,
-										//[UIColor whiteColor], UITextAttributeTextColor,
-										[UIColor clearColor], UITextAttributeTextShadowColor,
-										[NSValue valueWithUIOffset:UIOffsetMake(0, 1)], UITextAttributeTextShadowOffset,
-										nil] ;//[NSDictionary dictionaryWithObject:  [UIColor redColor]forKey:UITextAttributeTextColor];
+										[UIFont fontWithName:@"0Arame-Mono-Bold" size:fontSize],									UITextAttributeFont,
+										[UIColor colorWithRed:loss * 0/255.0 green:loss * 76/255.0 blue:loss * 81/255.0 alpha:1],	UITextAttributeTextColor,
+										[UIColor clearColor],																		UITextAttributeTextShadowColor,
+										[NSValue valueWithUIOffset:UIOffsetMake(0, 0)],												UITextAttributeTextShadowOffset,
+										nil];
 	[self setTitleTextAttributes:selectedAttributes forState:UIControlStateSelected];
 
+	//text offset
+	[self setContentPositionAdjustment:UIOffsetMake(0, 2)
+						forSegmentType:UISegmentedControlSegmentAny
+							barMetrics:UIBarMetricsDefault];
 
 }
 
