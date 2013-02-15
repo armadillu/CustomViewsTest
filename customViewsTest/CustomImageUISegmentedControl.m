@@ -38,21 +38,21 @@
 	
 	//normal segment
 	float fontSize = 14;
-	float loss = 0.7;
+	float colorGain = 0.9;
 	NSDictionary *normalAttributes = [NSDictionary dictionaryWithObjectsAndKeys:
-									  [UIFont fontWithName:@"0Arame-Mono-Bold" size:fontSize],								UITextAttributeFont,
-									  [UIColor colorWithRed:loss*0/255.0 green:loss*76/255.0 blue:loss*81/255.0 alpha:1],	UITextAttributeTextColor,
-									  [UIColor clearColor],																	UITextAttributeTextShadowColor,
-									  [NSValue valueWithUIOffset:UIOffsetMake(0, 0)],										UITextAttributeTextShadowOffset,
+									  [UIFont fontWithName:@"0Arame-Mono-Bold" size:fontSize],												UITextAttributeFont,
+									  [UIColor colorWithRed:colorGain*0/255.0 green:colorGain*41/255.0 blue:colorGain*68/255.0 alpha:1],	UITextAttributeTextColor,
+									  [UIColor clearColor],																					UITextAttributeTextShadowColor,
+									  [NSValue valueWithUIOffset:UIOffsetMake(0, 0)],														UITextAttributeTextShadowOffset,
 									  nil];
 	[self setTitleTextAttributes:normalAttributes forState:UIControlStateNormal];
 
-	loss = 1;
+	colorGain = 1;
 	NSDictionary *selectedAttributes = [NSDictionary dictionaryWithObjectsAndKeys:
-										[UIFont fontWithName:@"0Arame-Mono-Bold" size:fontSize],									UITextAttributeFont,
-										[UIColor colorWithRed:loss * 0/255.0 green:loss * 76/255.0 blue:loss * 81/255.0 alpha:1],	UITextAttributeTextColor,
-										[UIColor clearColor],																		UITextAttributeTextShadowColor,
-										[NSValue valueWithUIOffset:UIOffsetMake(0, 0)],												UITextAttributeTextShadowOffset,
+										[UIFont fontWithName:@"0Arame-Mono-Bold" size:fontSize],													UITextAttributeFont,
+										[UIColor colorWithRed:colorGain * 0/255.0 green:colorGain * 41/255.0 blue:colorGain * 68/255.0 alpha:1],	UITextAttributeTextColor,
+										[UIColor clearColor],																						UITextAttributeTextShadowColor,
+										[NSValue valueWithUIOffset:UIOffsetMake(0, 0)],																UITextAttributeTextShadowOffset,
 										nil];
 	[self setTitleTextAttributes:selectedAttributes forState:UIControlStateSelected];
 
