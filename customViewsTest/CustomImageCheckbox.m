@@ -13,6 +13,7 @@
 - (void)awakeFromNib {
 
     [super awakeFromNib];
+	[self setTitle:@"" forState:UIControlStateNormal]; //remove title
 
 	[self setImage:[UIImage imageNamed:@"checkBoxOff.png"]
 						forState:UIControlStateNormal];

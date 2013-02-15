@@ -14,10 +14,8 @@
 
 	 [super awakeFromNib];
 	
-	//[segmentedCtrl setTintColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"duck.png"]]];
     [self setBackgroundImage:[UIImage imageNamed:@"SegmentedControlNormalBackground"] forState:UIControlStateNormal barMetrics:UIBarMetricsDefault];
     [self setBackgroundImage:[UIImage imageNamed:@"SegmentedControlSelectedBackground"] forState:UIControlStateSelected barMetrics:UIBarMetricsDefault];
-	[self setBackgroundImage:[UIImage imageNamed:@"SegmentedControlSelectedBackground"] forState:UIControlStateHighlighted barMetrics:UIBarMetricsDefault];
 
 	[self setDividerImage:[UIImage imageNamed:@"SegmentedControlNormalDivider"]
 	  forLeftSegmentState:UIControlStateSelected
