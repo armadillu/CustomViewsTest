@@ -13,11 +13,11 @@
 - (void)awakeFromNib {
 
 	 [super awakeFromNib];
-	
+
     [self setBackgroundImage:[UIImage imageNamed:@"SegmentedControlNormalBackground"] forState:UIControlStateNormal barMetrics:UIBarMetricsDefault];
     [self setBackgroundImage:[UIImage imageNamed:@"SegmentedControlSelectedBackground"] forState:UIControlStateSelected barMetrics:UIBarMetricsDefault];
 
-	[self setDividerImage:[UIImage imageNamed:@"SegmentedControlNormalDivider"]
+	[self setDividerImage:[UIImage imageNamed:@"SegmentedControlLeftSelectedDivider"]
 	  forLeftSegmentState:UIControlStateSelected
 		rightSegmentState:UIControlStateNormal
 			   barMetrics:UIBarMetricsDefault];
@@ -27,7 +27,7 @@
 		rightSegmentState:UIControlStateNormal
 			   barMetrics:UIBarMetricsDefault];
 
-	[self setDividerImage:[UIImage imageNamed:@"SegmentedControlNormalDivider"]
+	[self setDividerImage:[UIImage imageNamed:@"SegmentedControlRightSelectedDivider"]
 	  forLeftSegmentState:UIControlStateNormal
 		rightSegmentState:UIControlStateSelected
 			   barMetrics:UIBarMetricsDefault];
