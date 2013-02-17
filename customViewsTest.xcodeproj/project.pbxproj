@@ -8,24 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		BB51248816CDC69400B78060 /* CustomImageCheckbox.m in Sources */ = {isa = PBXBuildFile; fileRef = BB51248716CDC69400B78060 /* CustomImageCheckbox.m */; };
-		BB51249116CDDA9C00B78060 /* checkBoxOff.png in Resources */ = {isa = PBXBuildFile; fileRef = BB51248D16CDDA9C00B78060 /* checkBoxOff.png */; };
 		BB51249216CDDA9C00B78060 /* checkBoxOff@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB51248E16CDDA9C00B78060 /* checkBoxOff@2x.png */; };
-		BB51249316CDDA9C00B78060 /* checkBoxOn.png in Resources */ = {isa = PBXBuildFile; fileRef = BB51248F16CDDA9C00B78060 /* checkBoxOn.png */; };
 		BB51249416CDDA9C00B78060 /* checkBoxOn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB51249016CDDA9C00B78060 /* checkBoxOn@2x.png */; };
-		BB7104B516D13CDE00648102 /* SegmentedControlLeftSelectedDivider.png in Resources */ = {isa = PBXBuildFile; fileRef = BB7104AB16D13CDE00648102 /* SegmentedControlLeftSelectedDivider.png */; };
 		BB7104B616D13CDE00648102 /* SegmentedControlLeftSelectedDivider@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB7104AC16D13CDE00648102 /* SegmentedControlLeftSelectedDivider@2x.png */; };
-		BB7104B716D13CDE00648102 /* SegmentedControlNormalBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = BB7104AD16D13CDE00648102 /* SegmentedControlNormalBackground.png */; };
 		BB7104B816D13CDE00648102 /* SegmentedControlNormalBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB7104AE16D13CDE00648102 /* SegmentedControlNormalBackground@2x.png */; };
-		BB7104B916D13CDE00648102 /* SegmentedControlNormalDivider.png in Resources */ = {isa = PBXBuildFile; fileRef = BB7104AF16D13CDE00648102 /* SegmentedControlNormalDivider.png */; };
 		BB7104BA16D13CDE00648102 /* SegmentedControlNormalDivider@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB7104B016D13CDE00648102 /* SegmentedControlNormalDivider@2x.png */; };
-		BB7104BB16D13CDE00648102 /* SegmentedControlRightSelectedDivider.png in Resources */ = {isa = PBXBuildFile; fileRef = BB7104B116D13CDE00648102 /* SegmentedControlRightSelectedDivider.png */; };
 		BB7104BC16D13CDE00648102 /* SegmentedControlRightSelectedDivider@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB7104B216D13CDE00648102 /* SegmentedControlRightSelectedDivider@2x.png */; };
-		BB7104BD16D13CDE00648102 /* SegmentedControlSelectedBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = BB7104B316D13CDE00648102 /* SegmentedControlSelectedBackground.png */; };
 		BB7104BE16D13CDE00648102 /* SegmentedControlSelectedBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB7104B416D13CDE00648102 /* SegmentedControlSelectedBackground@2x.png */; };
-		BB7104C316D13DB500648102 /* SliderKnob.png in Resources */ = {isa = PBXBuildFile; fileRef = BB7104BF16D13DB500648102 /* SliderKnob.png */; };
 		BB7104C416D13DB500648102 /* SliderKnob@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB7104C016D13DB500648102 /* SliderKnob@2x.png */; };
-		BB7104C516D13DB500648102 /* SliderMin.png in Resources */ = {isa = PBXBuildFile; fileRef = BB7104C116D13DB500648102 /* SliderMin.png */; };
 		BB7104C616D13DB500648102 /* SliderMin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB7104C216D13DB500648102 /* SliderMin@2x.png */; };
+		BB7104EC16D164A700648102 /* SliderMax@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB7104EB16D164A700648102 /* SliderMax@2x.png */; };
 		BBCFBD7F16CC61CC00CAB83C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBCFBD7E16CC61CC00CAB83C /* UIKit.framework */; };
 		BBCFBD8116CC61CC00CAB83C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBCFBD8016CC61CC00CAB83C /* Foundation.framework */; };
 		BBCFBD8316CC61CC00CAB83C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBCFBD8216CC61CC00CAB83C /* CoreGraphics.framework */; };
@@ -39,33 +31,22 @@
 		BBCFBD9B16CC61CC00CAB83C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBCFBD9916CC61CC00CAB83C /* ViewController.xib */; };
 		BBCFBDA516CC65E300CAB83C /* CustomImageUISlider.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCFBDA416CC65E300CAB83C /* CustomImageUISlider.m */; };
 		BBCFBDAA16CC6C6200CAB83C /* CustomImageUISegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCFBDA916CC6C6200CAB83C /* CustomImageUISegmentedControl.m */; };
-		BBCFBDAD16CC6F4600CAB83C /* SegmentedControlSelectedBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = BBCFBDAB16CC6F4600CAB83C /* SegmentedControlSelectedBackground.png */; };
-		BBCFBDAE16CC6F4600CAB83C /* SegmentedControlNormalBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = BBCFBDAC16CC6F4600CAB83C /* SegmentedControlNormalBackground.png */; };
-		BBCFBDB016CC6FC100CAB83C /* SegmentedControlNormalDivider.png in Resources */ = {isa = PBXBuildFile; fileRef = BBCFBDAF16CC6FC100CAB83C /* SegmentedControlNormalDivider.png */; };
 		BBCFBDB216CC713700CAB83C /* mushroom.png in Resources */ = {isa = PBXBuildFile; fileRef = BBCFBDB116CC713700CAB83C /* mushroom.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BB51248616CDC69400B78060 /* CustomImageCheckbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomImageCheckbox.h; sourceTree = "<group>"; };
 		BB51248716CDC69400B78060 /* CustomImageCheckbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomImageCheckbox.m; sourceTree = "<group>"; };
-		BB51248D16CDDA9C00B78060 /* checkBoxOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkBoxOff.png; sourceTree = "<group>"; };
 		BB51248E16CDDA9C00B78060 /* checkBoxOff@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkBoxOff@2x.png"; sourceTree = "<group>"; };
-		BB51248F16CDDA9C00B78060 /* checkBoxOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkBoxOn.png; sourceTree = "<group>"; };
 		BB51249016CDDA9C00B78060 /* checkBoxOn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkBoxOn@2x.png"; sourceTree = "<group>"; };
-		BB7104AB16D13CDE00648102 /* SegmentedControlLeftSelectedDivider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SegmentedControlLeftSelectedDivider.png; sourceTree = "<group>"; };
 		BB7104AC16D13CDE00648102 /* SegmentedControlLeftSelectedDivider@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SegmentedControlLeftSelectedDivider@2x.png"; sourceTree = "<group>"; };
-		BB7104AD16D13CDE00648102 /* SegmentedControlNormalBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SegmentedControlNormalBackground.png; sourceTree = "<group>"; };
 		BB7104AE16D13CDE00648102 /* SegmentedControlNormalBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SegmentedControlNormalBackground@2x.png"; sourceTree = "<group>"; };
-		BB7104AF16D13CDE00648102 /* SegmentedControlNormalDivider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SegmentedControlNormalDivider.png; sourceTree = "<group>"; };
 		BB7104B016D13CDE00648102 /* SegmentedControlNormalDivider@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SegmentedControlNormalDivider@2x.png"; sourceTree = "<group>"; };
-		BB7104B116D13CDE00648102 /* SegmentedControlRightSelectedDivider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SegmentedControlRightSelectedDivider.png; sourceTree = "<group>"; };
 		BB7104B216D13CDE00648102 /* SegmentedControlRightSelectedDivider@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SegmentedControlRightSelectedDivider@2x.png"; sourceTree = "<group>"; };
-		BB7104B316D13CDE00648102 /* SegmentedControlSelectedBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SegmentedControlSelectedBackground.png; sourceTree = "<group>"; };
 		BB7104B416D13CDE00648102 /* SegmentedControlSelectedBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SegmentedControlSelectedBackground@2x.png"; sourceTree = "<group>"; };
-		BB7104BF16D13DB500648102 /* SliderKnob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SliderKnob.png; sourceTree = "<group>"; };
 		BB7104C016D13DB500648102 /* SliderKnob@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SliderKnob@2x.png"; sourceTree = "<group>"; };
-		BB7104C116D13DB500648102 /* SliderMin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SliderMin.png; sourceTree = "<group>"; };
 		BB7104C216D13DB500648102 /* SliderMin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SliderMin@2x.png"; sourceTree = "<group>"; };
+		BB7104EB16D164A700648102 /* SliderMax@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SliderMax@2x.png"; sourceTree = "<group>"; };
 		BBCFBD7B16CC61CC00CAB83C /* customViewsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = customViewsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBCFBD7E16CC61CC00CAB83C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BBCFBD8016CC61CC00CAB83C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -86,9 +67,6 @@
 		BBCFBDA416CC65E300CAB83C /* CustomImageUISlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomImageUISlider.m; sourceTree = "<group>"; };
 		BBCFBDA816CC6C6200CAB83C /* CustomImageUISegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomImageUISegmentedControl.h; sourceTree = "<group>"; };
 		BBCFBDA916CC6C6200CAB83C /* CustomImageUISegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomImageUISegmentedControl.m; sourceTree = "<group>"; };
-		BBCFBDAB16CC6F4600CAB83C /* SegmentedControlSelectedBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SegmentedControlSelectedBackground.png; sourceTree = "<group>"; };
-		BBCFBDAC16CC6F4600CAB83C /* SegmentedControlNormalBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SegmentedControlNormalBackground.png; sourceTree = "<group>"; };
-		BBCFBDAF16CC6FC100CAB83C /* SegmentedControlNormalDivider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SegmentedControlNormalDivider.png; sourceTree = "<group>"; };
 		BBCFBDB116CC713700CAB83C /* mushroom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mushroom.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,9 +87,7 @@
 		BB51248916CDDA4A00B78060 /* CheckBox */ = {
 			isa = PBXGroup;
 			children = (
-				BB51248D16CDDA9C00B78060 /* checkBoxOff.png */,
 				BB51248E16CDDA9C00B78060 /* checkBoxOff@2x.png */,
-				BB51248F16CDDA9C00B78060 /* checkBoxOn.png */,
 				BB51249016CDDA9C00B78060 /* checkBoxOn@2x.png */,
 				BB51248616CDC69400B78060 /* CustomImageCheckbox.h */,
 				BB51248716CDC69400B78060 /* CustomImageCheckbox.m */,
@@ -122,10 +98,9 @@
 		BB51248A16CDDA5400B78060 /* Slider */ = {
 			isa = PBXGroup;
 			children = (
-				BB7104BF16D13DB500648102 /* SliderKnob.png */,
 				BB7104C016D13DB500648102 /* SliderKnob@2x.png */,
-				BB7104C116D13DB500648102 /* SliderMin.png */,
 				BB7104C216D13DB500648102 /* SliderMin@2x.png */,
+				BB7104EB16D164A700648102 /* SliderMax@2x.png */,
 				BBCFBDA316CC65E300CAB83C /* CustomImageUISlider.h */,
 				BBCFBDA416CC65E300CAB83C /* CustomImageUISlider.m */,
 			);
@@ -135,19 +110,11 @@
 		BB51248B16CDDA5900B78060 /* SegementedControl */ = {
 			isa = PBXGroup;
 			children = (
-				BB7104AB16D13CDE00648102 /* SegmentedControlLeftSelectedDivider.png */,
 				BB7104AC16D13CDE00648102 /* SegmentedControlLeftSelectedDivider@2x.png */,
-				BB7104AD16D13CDE00648102 /* SegmentedControlNormalBackground.png */,
 				BB7104AE16D13CDE00648102 /* SegmentedControlNormalBackground@2x.png */,
-				BB7104AF16D13CDE00648102 /* SegmentedControlNormalDivider.png */,
 				BB7104B016D13CDE00648102 /* SegmentedControlNormalDivider@2x.png */,
-				BB7104B116D13CDE00648102 /* SegmentedControlRightSelectedDivider.png */,
 				BB7104B216D13CDE00648102 /* SegmentedControlRightSelectedDivider@2x.png */,
-				BB7104B316D13CDE00648102 /* SegmentedControlSelectedBackground.png */,
 				BB7104B416D13CDE00648102 /* SegmentedControlSelectedBackground@2x.png */,
-				BBCFBDAB16CC6F4600CAB83C /* SegmentedControlSelectedBackground.png */,
-				BBCFBDAC16CC6F4600CAB83C /* SegmentedControlNormalBackground.png */,
-				BBCFBDAF16CC6FC100CAB83C /* SegmentedControlNormalDivider.png */,
 				BBCFBDA816CC6C6200CAB83C /* CustomImageUISegmentedControl.h */,
 				BBCFBDA916CC6C6200CAB83C /* CustomImageUISegmentedControl.m */,
 			);
@@ -276,28 +243,17 @@
 				BBCFBD9316CC61CC00CAB83C /* Default@2x.png in Resources */,
 				BBCFBD9516CC61CC00CAB83C /* Default-568h@2x.png in Resources */,
 				BBCFBD9B16CC61CC00CAB83C /* ViewController.xib in Resources */,
-				BBCFBDAD16CC6F4600CAB83C /* SegmentedControlSelectedBackground.png in Resources */,
-				BBCFBDAE16CC6F4600CAB83C /* SegmentedControlNormalBackground.png in Resources */,
-				BBCFBDB016CC6FC100CAB83C /* SegmentedControlNormalDivider.png in Resources */,
 				BBCFBDB216CC713700CAB83C /* mushroom.png in Resources */,
-				BB51249116CDDA9C00B78060 /* checkBoxOff.png in Resources */,
 				BB51249216CDDA9C00B78060 /* checkBoxOff@2x.png in Resources */,
-				BB51249316CDDA9C00B78060 /* checkBoxOn.png in Resources */,
 				BB51249416CDDA9C00B78060 /* checkBoxOn@2x.png in Resources */,
-				BB7104B516D13CDE00648102 /* SegmentedControlLeftSelectedDivider.png in Resources */,
 				BB7104B616D13CDE00648102 /* SegmentedControlLeftSelectedDivider@2x.png in Resources */,
-				BB7104B716D13CDE00648102 /* SegmentedControlNormalBackground.png in Resources */,
 				BB7104B816D13CDE00648102 /* SegmentedControlNormalBackground@2x.png in Resources */,
-				BB7104B916D13CDE00648102 /* SegmentedControlNormalDivider.png in Resources */,
 				BB7104BA16D13CDE00648102 /* SegmentedControlNormalDivider@2x.png in Resources */,
-				BB7104BB16D13CDE00648102 /* SegmentedControlRightSelectedDivider.png in Resources */,
 				BB7104BC16D13CDE00648102 /* SegmentedControlRightSelectedDivider@2x.png in Resources */,
-				BB7104BD16D13CDE00648102 /* SegmentedControlSelectedBackground.png in Resources */,
 				BB7104BE16D13CDE00648102 /* SegmentedControlSelectedBackground@2x.png in Resources */,
-				BB7104C316D13DB500648102 /* SliderKnob.png in Resources */,
 				BB7104C416D13DB500648102 /* SliderKnob@2x.png in Resources */,
-				BB7104C516D13DB500648102 /* SliderMin.png in Resources */,
 				BB7104C616D13DB500648102 /* SliderMin@2x.png in Resources */,
+				BB7104EC16D164A700648102 /* SliderMax@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,7 +357,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "customViewsTest/customViewsTest-Prefix.pch";
 				INFOPLIST_FILE = "customViewsTest/customViewsTest-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
@@ -414,7 +370,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "customViewsTest/customViewsTest-Prefix.pch";
 				INFOPLIST_FILE = "customViewsTest/customViewsTest-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;

@@ -39,7 +39,7 @@
 	float colorGain = 0.9;
 	NSDictionary *normalAttributes = [NSDictionary dictionaryWithObjectsAndKeys:
 									  [UIFont fontWithName:@"0Arame-Mono-Bold" size:fontSize],												UITextAttributeFont,
-									  [UIColor colorWithRed:colorGain*0/255.0 green:colorGain*41/255.0 blue:colorGain*68/255.0 alpha:1],	UITextAttributeTextColor,
+									  [UIColor colorWithRed:colorGain*0/255.0 green:colorGain*80/255.0 blue:colorGain*109/255.0 alpha:1],	UITextAttributeTextColor,
 									  [UIColor clearColor],																					UITextAttributeTextShadowColor,
 									  [NSValue valueWithUIOffset:UIOffsetMake(0, 0)],														UITextAttributeTextShadowOffset,
 									  nil];
@@ -48,7 +48,7 @@
 	colorGain = 1;
 	NSDictionary *selectedAttributes = [NSDictionary dictionaryWithObjectsAndKeys:
 										[UIFont fontWithName:@"0Arame-Mono-Bold" size:fontSize],													UITextAttributeFont,
-										[UIColor colorWithRed:colorGain * 0/255.0 green:colorGain * 41/255.0 blue:colorGain * 68/255.0 alpha:1],	UITextAttributeTextColor,
+										[UIColor colorWithRed:colorGain * 0/255.0 green:colorGain * 80/255.0 blue:colorGain * 109/255.0 alpha:1],	UITextAttributeTextColor,
 										[UIColor clearColor],																						UITextAttributeTextShadowColor,
 										[NSValue valueWithUIOffset:UIOffsetMake(0, 0)],																UITextAttributeTextShadowOffset,
 										nil];
