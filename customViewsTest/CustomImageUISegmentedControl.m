@@ -14,12 +14,12 @@
 
 	 [super awakeFromNib];
 
-    [self setBackgroundImage:[UIImage imageNamed:@"SegmentedControlNormalBackground"] forState:UIControlStateNormal barMetrics:UIBarMetricsDefault];
-    [self setBackgroundImage:[UIImage imageNamed:@"SegmentedControlSelectedBackground"] forState:UIControlStateSelected barMetrics:UIBarMetricsDefault];
+    [self setBackgroundImage:[UIImage imageNamed:@"SegmentedControlNormalBackground"] forState:UIControlStateSelected barMetrics:UIBarMetricsDefault];
+    [self setBackgroundImage:[UIImage imageNamed:@"SegmentedControlSelectedBackground"] forState:UIControlStateNormal barMetrics:UIBarMetricsDefault];
 
 	[self setDividerImage:[UIImage imageNamed:@"SegmentedControlLeftSelectedDivider"]
-	  forLeftSegmentState:UIControlStateSelected
-		rightSegmentState:UIControlStateNormal
+	  forLeftSegmentState:UIControlStateNormal
+		rightSegmentState:UIControlStateSelected
 			   barMetrics:UIBarMetricsDefault];
 
 	[self setDividerImage:[UIImage imageNamed:@"SegmentedControlNormalDivider"]
@@ -28,8 +28,8 @@
 			   barMetrics:UIBarMetricsDefault];
 
 	[self setDividerImage:[UIImage imageNamed:@"SegmentedControlRightSelectedDivider"]
-	  forLeftSegmentState:UIControlStateNormal
-		rightSegmentState:UIControlStateSelected
+	  forLeftSegmentState:UIControlStateSelected
+		rightSegmentState:UIControlStateNormal
 			   barMetrics:UIBarMetricsDefault];
 
 	self.apportionsSegmentWidthsByContent = NO; //uneven segments!
@@ -39,7 +39,7 @@
 	float colorGain = 0.9;
 	NSDictionary *normalAttributes = [NSDictionary dictionaryWithObjectsAndKeys:
 									  [UIFont fontWithName:@"0Arame-Mono-Bold" size:fontSize],												UITextAttributeFont,
-									  [UIColor colorWithRed:colorGain*0/255.0 green:colorGain*80/255.0 blue:colorGain*109/255.0 alpha:1],	UITextAttributeTextColor,
+									  [UIColor colorWithRed:colorGain*0/255.0 green:colorGain*59/255.0 blue:colorGain*109/255.0 alpha:1],	UITextAttributeTextColor,
 									  [UIColor clearColor],																					UITextAttributeTextShadowColor,
 									  [NSValue valueWithUIOffset:UIOffsetMake(0, 0)],														UITextAttributeTextShadowOffset,
 									  nil];
@@ -48,7 +48,7 @@
 	colorGain = 1;
 	NSDictionary *selectedAttributes = [NSDictionary dictionaryWithObjectsAndKeys:
 										[UIFont fontWithName:@"0Arame-Mono-Bold" size:fontSize],													UITextAttributeFont,
-										[UIColor colorWithRed:colorGain * 0/255.0 green:colorGain * 80/255.0 blue:colorGain * 109/255.0 alpha:1],	UITextAttributeTextColor,
+										[UIColor colorWithRed:colorGain * 0/255.0 green:colorGain * 59/255.0 blue:colorGain * 109/255.0 alpha:1],	UITextAttributeTextColor,
 										[UIColor clearColor],																						UITextAttributeTextShadowColor,
 										[NSValue valueWithUIOffset:UIOffsetMake(0, 0)],																UITextAttributeTextShadowOffset,
 										nil];
